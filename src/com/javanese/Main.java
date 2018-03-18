@@ -33,26 +33,26 @@ public class Main {
                 System.out.println("Actually, it was a " + switchValue);
         }
 
-        String month = "January";
-
-        switch (month.toLowerCase()) {
-            case "january":
-                System.out.println("Value of swichValueChar was A");
-                break;
-
-            case "february":
-                System.out.println("Value of swichValueChar was B");
-                break;
-
-            case "march":
-                System.out.println("Value of it was C");
-                break;
-
-            default:
-                System.out.println("Could not find A, B or C");
-                break;
+//        String month = "January";
+//
+//        switch (month.toLowerCase()) {
+//            case "january":
+//                System.out.println("Value of swichValueChar was A");
+//                break;
+//
+//            case "february":
+//                System.out.println("Value of swichValueChar was B");
+//                break;
+//
+//            case "march":
+//                System.out.println("Value of it was C");
+//                break;
+//
+//            default:
+//                System.out.println("Could not find A, B or C");
+//                break;
 
         }
 
     }
-}
+
