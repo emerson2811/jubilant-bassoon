@@ -8,9 +8,14 @@ public class interest {
             System.out.println("Loop " + i + " hello!");
 
         }
+
+        for (int i=0; i<11; i++) {
+            System.out.println("48,4000 at " + i + " interest = " + calculateInterest(48400, i));
+        }
     }
 
     public static double calculateInterest(double amount, double interestRate) {
         return (amount * (interestRate/100));
+
     }
 }
