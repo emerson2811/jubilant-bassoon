@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
         Car porsche = new Car();
         Car ford = new Car();
-        System.out.println("Model is" + porsche.getModel());
-        porsche.setModel("Carerra");
+        System.out.println("Model is " + porsche.getModel());
+        porsche.setModel("Carrera");
         System.out.println("Model is " + porsche.getModel());
 //	    int value = 3;
 //	        if(value == 1) {
